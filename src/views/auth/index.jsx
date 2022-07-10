@@ -1,8 +1,9 @@
 import Login from '../../components/login'
+import './style.css'
 
 function Auth() {
     return (
-        <div>
+        <div className='authView'>
             <Login />
         </div>
     )

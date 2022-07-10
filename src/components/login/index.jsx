@@ -6,30 +6,28 @@ import './style.css'
 const authInput = () => {
     return (
         <div className="loginCard">
-
-
             <h1>Login</h1>
-            <form action="">
-                <div>
+            <form action="" className="formLogin">
+                <div className="inputLogin">
                     <TextField
                         required
-                        id="email__input"
-                        className="input__login"
+                        id="emailInput"
                         label="E-mail"
                         defaultValue=""
                     />
                 </div>
-                <div>
+                <div className="inputLogin">
                     <TextField
                         required
-                        id="password__input"
-                        className="input__login"
+                        id="passwordInput"
                         label="Password"
                         defaultValue=""
                         type="password"
                     />
                 </div>
-                <Button variant="contained"><Link to='/shop'>Log in</Link></Button>
+                <Button variant="contained" size="large"><Link to='/shop'>Log in</Link></Button>
+
+                <span>Forgot your password? <a href="">Click here</a></span>
             </form>
 
         </div>
