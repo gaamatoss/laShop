@@ -1,0 +1,15 @@
+.body {
+  width: 100% !important;
+  margin: 0% !important;;
+}
+.form{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 { 
+   margin-bottom: 50px;
+  }
