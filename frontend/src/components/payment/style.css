@@ -1,0 +1,15 @@
+.paymentList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.getPrice {
+    padding: 20px;
+}
+
+.getPrice span {
+    margin-right: 40px;
+}
