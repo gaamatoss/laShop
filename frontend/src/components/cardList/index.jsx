@@ -1,18 +1,16 @@
 import React from "react";
 import './style.css'
 
-const cardList = () => {
+
+export default function cardList() {
     return (
         <div id="fruitList" className="itemsList">
             <ul>
-                <li>Laranja - $9.99</li>
-                <li>Laranja - $9.99</li>
-                <li>Laranja - $9.99</li>
-                <li>Laranja - $9.99</li>
+                {/* {frutas.map((fruta) => (
+                    <li key={fruta}>{fruta.name} - {fruta.price}</li>
+                ))} */}
             </ul>
-            <span>Total: $99.99</span>
+            <span>Total: </span>
         </div>
     )
 }
-
-export default cardList

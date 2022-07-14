@@ -20,7 +20,7 @@ const Payment = () => {
     return (
         <div className='paymentList'>
             <h2>Checkout</h2>
-            <CardList />
+            <CardList name="Laranja" price="9.90"/>
             <div className='getPrice'>
                 <Button onClick={pdfCheckout} appearance="primary">
                     Checkout

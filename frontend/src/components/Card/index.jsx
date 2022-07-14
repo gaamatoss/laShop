@@ -2,6 +2,7 @@ import { Button } from 'rsuite';
 import React from 'react';
 import './style.css'
 
+
 const fruitCard = (props) => {
     return (
         <div className='fruitCard'>
