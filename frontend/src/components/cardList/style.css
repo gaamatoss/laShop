@@ -1,10 +1,23 @@
 .itemsList {
-    width: 30%;
+    width: 90%;
+    margin: 10px;
     height: 30vh;
 }
 
-.itemsList span{
-    padding: 20px;
-    font-size: 1.4rem;
-    font-weight: bold;
+.deleted {
+    display: hidden;
+}
+
+.payList {
+    box-shadow: 0px 0px 7.5px 0px #000000;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    }
+    
+.payList:hover {
+    background-color: aliceblue;
 }

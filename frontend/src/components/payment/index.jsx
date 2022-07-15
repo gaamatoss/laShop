@@ -8,8 +8,9 @@ function pdfCheckout() {
 
     const pdfWindow = window.open('', '', 'width-100,heigth-100')
     pdfWindow.document.write('<html><head>')
-    pdfWindow.document.write('<title>Payment Checkout</title><head>')
+    pdfWindow.document.write('<title>Payment Document</title><head>')
     pdfWindow.document.write('<body>')
+    pdfWindow.document.write('<h3>Payment Checkout</h3>')
     pdfWindow.document.write(getList)
     pdfWindow.document.write('</body></html>')
     pdfWindow.document.close();
@@ -19,11 +20,14 @@ function pdfCheckout() {
 const Payment = () => {
     return (
         <div className='paymentList'>
-            <h2>Checkout</h2>
-            <CardList name="Laranja" price="9.90"/>
+            <h2>Pagamento</h2>
+            <hr />
+            <div className='cartItems'>
+                <CardList />
+            </div>
             <div className='getPrice'>
                 <Button onClick={pdfCheckout} appearance="primary">
-                    Checkout
+                    Comprar
                 </Button>
             </div>
         </div>

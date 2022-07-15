@@ -1,16 +1,17 @@
 import React from "react";
 import './style.css'
+import { addedFruit } from '../Card'
 
+let cartAdded = addedFruit
 
 export default function cardList() {
     return (
         <div id="fruitList" className="itemsList">
             <ul>
-                {/* {frutas.map((fruta) => (
-                    <li key={fruta}>{fruta.name} - {fruta.price}</li>
-                ))} */}
+                {cartAdded.map((fruta) => (
+                    <li className="payList">{fruta}</li>
+                ))}
             </ul>
-            <span>Total: </span>
         </div>
     )
 }

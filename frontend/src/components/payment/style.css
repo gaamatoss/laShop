@@ -13,3 +13,19 @@
 .getPrice span {
     margin-right: 40px;
 }
+
+.cartItems {
+    width: 40%;
+    height: 50vh;
+    padding: 20px 0px;
+    overflow: auto;
+}
+
+.cartItems::-webkit-scrollbar {
+    width: 8px;
+  }
+
+.cartItems::-webkit-scrollbar-thumb {
+    background: gray; 
+    border-radius: 6px;
+  }
